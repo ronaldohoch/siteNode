@@ -18,4 +18,9 @@ router.post('/new', middlewere, function(req, res) {
   // res.render('signup', { title: 'Signup',msg:'Bem vindo.' });
 });
 
+router.get('/delete', middlewere, function(req, res) {
+  res.send("Deletado");
+  // res.render('signup', { title: 'Signup',msg:'Bem vindo.' });
+});
+
 module.exports = router;
