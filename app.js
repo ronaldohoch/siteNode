@@ -13,6 +13,7 @@ var app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
+//https://www.npmjs.org/package/consolidate
 app.set('view engine', 'jade');
 
 // uncomment after placing your favicon in /public
