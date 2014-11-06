@@ -5,10 +5,10 @@ block content
     .small-12.medium-12.large-12.columns
       h1= title
       p #{msg}
-  form.row(action="/signup/new",method="POST")
+  form.row(action="/signup/new",method="post")
     .small-12.medium-4.large-4.columns
       label(for="name") Nome
-        input(type="text",placeholder="Seu nome")
+        input(name="name",type="text",placeholder="Seu nome")
       label(for="password") Senha
-        input(type="password",placeholder="Sua senha")
+        input(name="password",type="password",placeholder="Sua senha")
       button.right(type="submit",role="button",href="",class="button expand") Entrar
